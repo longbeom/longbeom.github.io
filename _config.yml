@@ -11,7 +11,7 @@ baseurl: ''
 lang: en-US
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
@@ -160,5 +160,6 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-comments: true
-shortname: 'longbeom'
+disqus:
+  comments: true
+  shortname: 'longbeom'
